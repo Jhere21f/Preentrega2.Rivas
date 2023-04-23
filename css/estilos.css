@@ -7,42 +7,10 @@ body{
 
 /* CARD STYLES  */
 
-.main-container .card-container{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgba(8, 0, 0, 0.918); 
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-    width: 280px;
-    height: 280px;
-    padding: 10px;
-    margin: 5px;
-}
-
 .main-container .card-image img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-}
-
-.card-title {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.card-description{
-    font-size: 14px;
-    font-weight: normal;
-}
-
-
-.card-submit {
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 5px;
-    background-color:rgba(0, 0, 0, 0.4) ;
 }
 
 
