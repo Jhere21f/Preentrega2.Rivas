@@ -1,0 +1,28 @@
+*{
+    font-family: 'Lora', serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+.gradiant{
+    background: linear-gradient(beige,grey);
+}
+.header-gradiant{
+    background: linear-gradient(rgb(0,45,105), rgb(1, 99, 99));
+}
+.main-container .card-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main-container {
+    width: 100%;
+    align-items: center;
+    padding: $main-padding;
+    background-color: $main-background-color;
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
