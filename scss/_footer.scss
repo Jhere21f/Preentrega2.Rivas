@@ -8,7 +8,7 @@
     background-color: rgb(0,45,105);
     
     p {
-        color:white;
+        color:$footer-p;
     }
     
     .social-media img {
@@ -20,7 +20,7 @@
     }
     
     &-copyright{
-        color: white;
+        color:$footer-p;
         font-size: 10px;
     }
     

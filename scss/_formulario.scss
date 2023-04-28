@@ -4,21 +4,21 @@
     align-items: center;
     justify-content: center;
     border: 1px solid grey;
-    padding: 5px;
-    margin: 5px;
+    padding: $form-padding-margin;
+    margin: $form-padding-margin;
     
     label {
         display: flex;
         justify-content: space-around;
-        padding: 5px;
-        margin: 5px;
+        padding:$form-padding-margin;
+        margin:$form-padding-margin;
     }
     
     .form-input label {
         display: flex;
         justify-content: space-around;
-        padding: 5px;
-        margin: 5px;
+        padding:$form-padding-margin;
+        margin:$form-padding-margin;
     }
     
     .form-submit {
@@ -28,7 +28,7 @@
         border: none;
         background: #fff;
         color: #000;
-        padding: 5px;
+        padding: $form-padding-margin;
         border-radius: 5px;
         height: 20px;
         font-weight: bold;

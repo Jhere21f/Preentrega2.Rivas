@@ -19,7 +19,7 @@
         align-items: center;
 
         .header-menu-left {
-        display: flex;
+        @extend .header-nav;
 
         li {
             display: flex;

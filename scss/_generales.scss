@@ -4,10 +4,10 @@
     overflow-x: hidden;
 }
 .gradiant{
-    background: linear-gradient(beige,grey);
+    background: $color;
 }
 .header-gradiant{
-    background: linear-gradient(rgb(0,45,105), rgb(1, 99, 99));
+    background: $color-header;
 }
 .main-container .card-image img {
     width: 200px;
